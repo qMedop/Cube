@@ -9,7 +9,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
+}
+@media (max-width: 768px) {
+    body {
+        min-height: calc(100vh - 100px);
+    }
 }
 .cube {
     position: relative;
